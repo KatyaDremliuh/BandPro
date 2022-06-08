@@ -3,7 +3,7 @@ using System.Drawing;
 
 namespace ConsoleApp.Cars
 {
-    public abstract class Car : IMoveble
+    public abstract class Car : IMoveable
     {
         protected Color Color;
 

@@ -33,7 +33,7 @@
             this.lblCurrentTime = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCatchError = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnStart
@@ -68,21 +68,23 @@
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 2;
             // 
-            // button1
+            // btnCatchError
             // 
-            this.button1.Location = new System.Drawing.Point(255, 79);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCatchError.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCatchError.Location = new System.Drawing.Point(225, 74);
+            this.btnCatchError.Name = "btnCatchError";
+            this.btnCatchError.Size = new System.Drawing.Size(209, 39);
+            this.btnCatchError.TabIndex = 3;
+            this.btnCatchError.Text = "Обработка ошибки";
+            this.btnCatchError.UseVisualStyleBackColor = true;
+            this.btnCatchError.Click += new System.EventHandler(this.btnCatchError_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(456, 442);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCatchError);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.lblCurrentTime);
             this.Controls.Add(this.btnStart);
@@ -100,6 +102,6 @@
         private System.Windows.Forms.Label lblCurrentTime;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCatchError;
     }
 }

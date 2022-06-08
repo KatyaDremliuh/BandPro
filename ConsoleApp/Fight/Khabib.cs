@@ -2,7 +2,7 @@
 
 namespace ConsoleApp.Fight
 {
-    internal class Khabib : Person
+    public class Khabib : Person
     {
         public override void ChallengeToCombat()
         {

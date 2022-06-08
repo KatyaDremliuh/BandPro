@@ -2,7 +2,7 @@
 
 namespace ConsoleApp.Cars
 {
-    internal class Horse : IMoveble
+    internal class Horse : IMoveable
     {
         public void Move()
         {

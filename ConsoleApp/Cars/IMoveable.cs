@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp.Cars
 {
-    internal interface IMoveble
+    public interface IMoveable
     {
         void Move();
     }

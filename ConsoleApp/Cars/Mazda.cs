@@ -3,7 +3,7 @@ using System.Drawing;
 
 namespace ConsoleApp.Cars
 {
-    internal class Mazda : Car
+    public class Mazda : Car
     {
         public Mazda(Color myColor) : base(myColor)
         {
