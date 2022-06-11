@@ -146,5 +146,11 @@ namespace Calculator
         {
             e.Handled = true;
         }
+
+        private void btbClear_Click(object sender, EventArgs e)
+        {
+            CurrentOperation = null;
+            tBOutput.Text = string.Empty;
+        }
     }
 }

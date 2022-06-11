@@ -48,6 +48,7 @@
             this.btnPlus = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tBOutput = new System.Windows.Forms.TextBox();
+            this.btbClear = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -78,14 +79,16 @@
             this.tableLayoutPanel1.Controls.Add(this.btn0, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.btnEquals, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.btnPlus, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.btbClear, 0, 4);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.RowCount = 5;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(709, 436);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -96,7 +99,7 @@
             this.btn7.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.Location = new System.Drawing.Point(3, 3);
             this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(171, 103);
+            this.btn7.Size = new System.Drawing.Size(171, 81);
             this.btn7.TabIndex = 0;
             this.btn7.Tag = "7";
             this.btn7.Text = "7";
@@ -109,7 +112,7 @@
             this.btn8.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.Location = new System.Drawing.Point(180, 3);
             this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(171, 103);
+            this.btn8.Size = new System.Drawing.Size(171, 81);
             this.btn8.TabIndex = 1;
             this.btn8.Tag = "8";
             this.btn8.Text = "8";
@@ -122,7 +125,7 @@
             this.btn9.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.Location = new System.Drawing.Point(357, 3);
             this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(171, 103);
+            this.btn9.Size = new System.Drawing.Size(171, 81);
             this.btn9.TabIndex = 2;
             this.btn9.Tag = "9";
             this.btn9.Text = "9";
@@ -135,7 +138,7 @@
             this.btnObelus.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnObelus.Location = new System.Drawing.Point(534, 3);
             this.btnObelus.Name = "btnObelus";
-            this.btnObelus.Size = new System.Drawing.Size(172, 103);
+            this.btnObelus.Size = new System.Drawing.Size(172, 81);
             this.btnObelus.TabIndex = 3;
             this.btnObelus.Text = "/";
             this.btnObelus.UseVisualStyleBackColor = false;
@@ -146,9 +149,9 @@
             this.btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btn4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn4.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn4.Location = new System.Drawing.Point(3, 112);
+            this.btn4.Location = new System.Drawing.Point(3, 90);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(171, 103);
+            this.btn4.Size = new System.Drawing.Size(171, 81);
             this.btn4.TabIndex = 4;
             this.btn4.Tag = "4";
             this.btn4.Text = "4";
@@ -159,9 +162,9 @@
             this.btn5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btn5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn5.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn5.Location = new System.Drawing.Point(180, 112);
+            this.btn5.Location = new System.Drawing.Point(180, 90);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(171, 103);
+            this.btn5.Size = new System.Drawing.Size(171, 81);
             this.btn5.TabIndex = 5;
             this.btn5.Tag = "5";
             this.btn5.Text = "5";
@@ -172,9 +175,9 @@
             this.btn6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btn6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn6.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn6.Location = new System.Drawing.Point(357, 112);
+            this.btn6.Location = new System.Drawing.Point(357, 90);
             this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(171, 103);
+            this.btn6.Size = new System.Drawing.Size(171, 81);
             this.btn6.TabIndex = 6;
             this.btn6.Tag = "6";
             this.btn6.Text = "6";
@@ -185,9 +188,9 @@
             this.btnTimes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnTimes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnTimes.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimes.Location = new System.Drawing.Point(534, 112);
+            this.btnTimes.Location = new System.Drawing.Point(534, 90);
             this.btnTimes.Name = "btnTimes";
-            this.btnTimes.Size = new System.Drawing.Size(172, 103);
+            this.btnTimes.Size = new System.Drawing.Size(172, 81);
             this.btnTimes.TabIndex = 7;
             this.btnTimes.Text = "*";
             this.btnTimes.UseVisualStyleBackColor = false;
@@ -198,9 +201,9 @@
             this.btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btn3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn3.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn3.Location = new System.Drawing.Point(3, 221);
+            this.btn3.Location = new System.Drawing.Point(3, 177);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(171, 103);
+            this.btn3.Size = new System.Drawing.Size(171, 81);
             this.btn3.TabIndex = 8;
             this.btn3.Tag = "3";
             this.btn3.Text = "3";
@@ -211,9 +214,9 @@
             this.btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btn2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn2.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn2.Location = new System.Drawing.Point(180, 221);
+            this.btn2.Location = new System.Drawing.Point(180, 177);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(171, 103);
+            this.btn2.Size = new System.Drawing.Size(171, 81);
             this.btn2.TabIndex = 9;
             this.btn2.Tag = "2";
             this.btn2.Text = "2";
@@ -224,9 +227,9 @@
             this.btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btn1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn1.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1.Location = new System.Drawing.Point(357, 221);
+            this.btn1.Location = new System.Drawing.Point(357, 177);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(171, 103);
+            this.btn1.Size = new System.Drawing.Size(171, 81);
             this.btn1.TabIndex = 10;
             this.btn1.Tag = "1";
             this.btn1.Text = "1";
@@ -237,9 +240,9 @@
             this.btnMinus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnMinus.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnMinus.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMinus.Location = new System.Drawing.Point(534, 221);
+            this.btnMinus.Location = new System.Drawing.Point(534, 177);
             this.btnMinus.Name = "btnMinus";
-            this.btnMinus.Size = new System.Drawing.Size(172, 103);
+            this.btnMinus.Size = new System.Drawing.Size(172, 81);
             this.btnMinus.TabIndex = 11;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = false;
@@ -250,9 +253,9 @@
             this.btnComma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnComma.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnComma.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnComma.Location = new System.Drawing.Point(3, 330);
+            this.btnComma.Location = new System.Drawing.Point(3, 264);
             this.btnComma.Name = "btnComma";
-            this.btnComma.Size = new System.Drawing.Size(171, 103);
+            this.btnComma.Size = new System.Drawing.Size(171, 81);
             this.btnComma.TabIndex = 12;
             this.btnComma.Tag = ",";
             this.btnComma.Text = ",";
@@ -263,9 +266,9 @@
             this.btn0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btn0.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn0.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn0.Location = new System.Drawing.Point(180, 330);
+            this.btn0.Location = new System.Drawing.Point(180, 264);
             this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(171, 103);
+            this.btn0.Size = new System.Drawing.Size(171, 81);
             this.btn0.TabIndex = 13;
             this.btn0.Tag = "0";
             this.btn0.Text = "0";
@@ -276,9 +279,9 @@
             this.btnEquals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnEquals.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEquals.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEquals.Location = new System.Drawing.Point(357, 330);
+            this.btnEquals.Location = new System.Drawing.Point(357, 264);
             this.btnEquals.Name = "btnEquals";
-            this.btnEquals.Size = new System.Drawing.Size(171, 103);
+            this.btnEquals.Size = new System.Drawing.Size(171, 81);
             this.btnEquals.TabIndex = 14;
             this.btnEquals.Text = "=";
             this.btnEquals.UseVisualStyleBackColor = false;
@@ -289,9 +292,9 @@
             this.btnPlus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnPlus.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnPlus.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlus.Location = new System.Drawing.Point(534, 330);
+            this.btnPlus.Location = new System.Drawing.Point(534, 264);
             this.btnPlus.Name = "btnPlus";
-            this.btnPlus.Size = new System.Drawing.Size(172, 103);
+            this.btnPlus.Size = new System.Drawing.Size(172, 81);
             this.btnPlus.TabIndex = 15;
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = false;
@@ -326,6 +329,19 @@
             this.tBOutput.Size = new System.Drawing.Size(709, 79);
             this.tBOutput.TabIndex = 0;
             this.tBOutput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tBOutput_KeyPress);
+            // 
+            // btbClear
+            // 
+            this.btbClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btbClear.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btbClear.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btbClear.Location = new System.Drawing.Point(143, 370);
+            this.btbClear.Name = "btbClear";
+            this.btbClear.Size = new System.Drawing.Size(193, 63);
+            this.btbClear.TabIndex = 16;
+            this.btbClear.Text = "Clear";
+            this.btbClear.UseVisualStyleBackColor = false;
+            this.btbClear.Click += new System.EventHandler(this.btbClear_Click);
             // 
             // Form1
             // 
@@ -368,5 +384,6 @@
         private System.Windows.Forms.Button btnPlus;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.TextBox tBOutput;
+        private System.Windows.Forms.Button btbClear;
     }
 }
