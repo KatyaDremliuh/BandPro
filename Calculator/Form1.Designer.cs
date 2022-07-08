@@ -46,9 +46,9 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.btnEquals = new System.Windows.Forms.Button();
             this.btnPlus = new System.Windows.Forms.Button();
+            this.btbClear = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tBOutput = new System.Windows.Forms.TextBox();
-            this.btbClear = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -300,6 +300,19 @@
             this.btnPlus.UseVisualStyleBackColor = false;
             this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
+            // btbClear
+            // 
+            this.btbClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btbClear.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btbClear.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btbClear.Location = new System.Drawing.Point(3, 351);
+            this.btbClear.Name = "btbClear";
+            this.btbClear.Size = new System.Drawing.Size(171, 82);
+            this.btbClear.TabIndex = 16;
+            this.btbClear.Text = "Clear";
+            this.btbClear.UseVisualStyleBackColor = false;
+            this.btbClear.Click += new System.EventHandler(this.btbClear_Click);
+            // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -329,19 +342,6 @@
             this.tBOutput.Size = new System.Drawing.Size(709, 79);
             this.tBOutput.TabIndex = 0;
             this.tBOutput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tBOutput_KeyPress);
-            // 
-            // btbClear
-            // 
-            this.btbClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btbClear.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btbClear.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btbClear.Location = new System.Drawing.Point(143, 370);
-            this.btbClear.Name = "btbClear";
-            this.btbClear.Size = new System.Drawing.Size(193, 63);
-            this.btbClear.TabIndex = 16;
-            this.btbClear.Text = "Clear";
-            this.btbClear.UseVisualStyleBackColor = false;
-            this.btbClear.Click += new System.EventHandler(this.btbClear_Click);
             // 
             // Form1
             // 

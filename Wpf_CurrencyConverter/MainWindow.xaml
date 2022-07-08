@@ -1,0 +1,41 @@
+﻿<Window x:Class="Wpf_CurrencyConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpfanimated="http://wpfanimatedgif.codeplex.com"
+        xmlns:local="clr-namespace:Wpf_CurrencyConverter" d:DataContext="{d:DesignInstance Type=local:RateModel}"
+        mc:Ignorable="d"
+        Title="Курс доллара"
+        Loaded="OnLoad"
+        Height="325" Width="325" WindowStyle="None"  
+        AllowsTransparency="True" Background="{x:Null}" 
+        MouseDown="Window_MouseDown" MouseMove="Window_MouseMove" MouseUp="Window_MouseUp" 
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Visibility="Visible" Content="X" HorizontalAlignment="Center" VerticalAlignment="Top" Panel.ZIndex="1" Background="#7FEA5454" FontSize="16" Foreground="#FFF5F2F2" Padding="5,0,5,2" FontWeight="Bold" VerticalContentAlignment="Top" HorizontalContentAlignment="Right" Margin="0,12,0,0" Click="Button_Click"/>
+        <Border x:Name="Forma" BorderThickness="10,50,10,50" CornerRadius="325" Padding="5,5,5,2">
+            <Border.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF8A9DF5" Offset="0.854"/>
+                    <GradientStop Color="#FF052A7A" Offset="1"/>
+                    <GradientStop Color="#FF09338D" Offset="0.772"/>
+                </RadialGradientBrush>
+            </Border.BorderBrush>
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+                <Label FontWeight="Bold" FontSize="14" Foreground="Black" Content=" Один доллар стоит "></Label>
+                <Label FontWeight="Bold" FontSize="14" Foreground="Black" Grid.Row="0" ContentStringFormat="{}{0} р." Content="{Binding Value}"/>
+            </StackPanel>
+        </Border>
+
+        <Image wpfanimated:ImageBehavior.AnimatedSource="Gif/AGau.gif>"
+                wpfanimated:ImageBehavior.RepeatBehavior="1"
+                wpfanimated:ImageBehavior.AnimateInDesignMode="False"
+                wpfanimated:ImageBehavior.AutoStart="True"
+                Width="100" Height="100"
+                Visibility="{Binding IsProgressVisible}"
+                />
+       
+    </Grid>
+</Window>
